@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'), url(./assets/Fonts/Gilroy/Gilroy-Bold.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('Gilroy-Medium'), url(./assets/Fonts/Gilroy/Gilroy-Medium.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Gilroy-Light';
+    src: local('Gilroy-Light'), url(./assets/Fonts/Gilroy-Light.ttf) format('truetype');
+  }
+
+:root{
+    --background-color:#F7FFE5;
+    --accent-color:#A0C49D;  
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Gilroy-medium';
+}
+html,body{
+height: 100%;
+width: 100%;
+background-color: var(--background-color);
+}
